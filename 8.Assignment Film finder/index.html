@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script
+      defer
+      type="text/javascript"
+      src="movie_database_example.js"
+    ></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <title>Assignment: Film finder</title>
+  </head>
+  <header>
+    <h1>Assignment: Film finder</h1>
+
+    <!-- navbalk -->
+    <nav>
+      <!-- radiobuttons voor filtering -->
+
+      <input
+        type="radio"
+        id="latest-movies"
+        name="film-filter"
+        value="latest"
+      />
+      <label for="latest-movies">Latest Movies, 2014 or newer</label>
+
+      <input
+        type="radio"
+        id="avengers"
+        name="film-filter"
+        value="avengers-movies"
+      />
+      <label for="avengers">Avengers Movies</label>
+
+      <input type="radio" id="x-men" name="film-filter" value="xmen-movies" />
+      <label for="x-men">X-Men Movies</label>
+
+      <input
+        type="radio"
+        id="princess"
+        name="film-filter"
+        value="princess-movies"
+      />
+      <label for="princess">Princess Movies</label>
+
+      <input
+        type="radio"
+        id="batman"
+        name="film-filter"
+        value="batman-movies"
+      />
+      <label for="batman">Batman Movies</label>
+    </nav>
+  </header>
+
+  <body>
+    <!-- Filmlijst -->
+    <main>
+      <ul id="movie-overview"></ul>
+    </main>
+  </body>
+</html>

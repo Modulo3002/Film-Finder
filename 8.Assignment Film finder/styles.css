@@ -1,0 +1,48 @@
+#movie-overview {
+    /* list-style-type: none; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+   
+}
+
+body {
+    background-color: rgb(48, 88, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.search{
+    margin-left: 20px;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* Gebruikt om font uit te zetten. Niet meer van toepassing. */
+
+/* li{
+    font-size: 0;
+} */
